@@ -7,6 +7,7 @@ Step by step Deploy to Heroku:
 dotnet publish -c Release
 
 2. Build docker image 
+2.1 copy Dockerfile to ./bin/Release/netcoreapp3.0/publish
 
 docker build -t kutetai_image ./bin/Release/netcoreapp3.0/publish
  
